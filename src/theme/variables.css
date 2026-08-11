@@ -1,0 +1,324 @@
+/* ============================================================
+   Custom Ionic Theme — Compact Density, Dark Premium Palette
+   ============================================================ */
+
+:root {
+  /* ── Primary (Indigo) ── */
+  --ion-color-primary: #6366f1;
+  --ion-color-primary-rgb: 99, 102, 241;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #575ad4;
+  --ion-color-primary-tint: #7376f2;
+
+  /* ── Secondary (Violet) ── */
+  --ion-color-secondary: #8b5cf6;
+  --ion-color-secondary-rgb: 139, 92, 246;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #7a51d8;
+  --ion-color-secondary-tint: #976cf7;
+
+  /* ── Tertiary (Fuchsia) ── */
+  --ion-color-tertiary: #d946ef;
+  --ion-color-tertiary-rgb: 217, 70, 239;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #bf3ed2;
+  --ion-color-tertiary-tint: #dd59f1;
+
+  /* ── Success ── */
+  --ion-color-success: #10b981;
+  --ion-color-success-rgb: 16, 185, 129;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #0ea372;
+  --ion-color-success-tint: #28c08e;
+
+  /* ── Warning ── */
+  --ion-color-warning: #f59e0b;
+  --ion-color-warning-rgb: 245, 158, 11;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #d88b0a;
+  --ion-color-warning-tint: #f6a823;
+
+  /* ── Danger ── */
+  --ion-color-danger: #ef4444;
+  --ion-color-danger-rgb: 239, 68, 68;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #d23c3c;
+  --ion-color-danger-tint: #f15757;
+
+  /* ── Dark ── */
+  --ion-color-dark: #0f172a;
+  --ion-color-dark-rgb: 15, 23, 42;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #0d1425;
+  --ion-color-dark-tint: #272e3f;
+
+  /* ── Medium ── */
+  --ion-color-medium: #64748b;
+  --ion-color-medium-rgb: 100, 116, 139;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #58667a;
+  --ion-color-medium-tint: #748297;
+
+  /* ── Light ── */
+  --ion-color-light: #f1f5f9;
+  --ion-color-light-rgb: 241, 245, 249;
+  --ion-color-light-contrast: #0f172a;
+  --ion-color-light-contrast-rgb: 15, 23, 42;
+  --ion-color-light-shade: #d4d8db;
+  --ion-color-light-tint: #f2f6fa;
+}
+
+/* ── Dark Mode ── */
+.ion-palette-dark {
+  --ion-background-color: #0f172a;
+  --ion-background-color-rgb: 15, 23, 42;
+
+  --ion-text-color: #e2e8f0;
+  --ion-text-color-rgb: 226, 232, 240;
+
+  --ion-color-step-50: #1a2236;
+  --ion-color-step-100: #1e293b;
+  --ion-color-step-150: #253349;
+  --ion-color-step-200: #2d3c56;
+  --ion-color-step-250: #354563;
+  --ion-color-step-300: #3d4e70;
+  --ion-color-step-350: #45577e;
+  --ion-color-step-400: #4d618b;
+  --ion-color-step-450: #556a98;
+  --ion-color-step-500: #6478a3;
+  --ion-color-step-550: #7486ad;
+  --ion-color-step-600: #8494b7;
+  --ion-color-step-650: #94a2c1;
+  --ion-color-step-700: #a4b0cb;
+  --ion-color-step-750: #b4bed5;
+  --ion-color-step-800: #c4ccdf;
+  --ion-color-step-850: #d4dae9;
+  --ion-color-step-900: #e2e8f0;
+  --ion-color-step-950: #f1f4f8;
+
+  --ion-toolbar-background: #1e293b;
+  --ion-tab-bar-background: #1e293b;
+  --ion-card-background: #1e293b;
+  --ion-item-background: #1e293b;
+}
+
+/* ── Compact density overrides ── */
+ion-item {
+  --min-height: 36px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --inner-padding-top: 4px;
+  --inner-padding-bottom: 4px;
+  font-size: 14px;
+}
+
+ion-list-header {
+  --min-height: 32px;
+  font-size: 12px;
+}
+
+ion-toolbar {
+  --min-height: 40px;
+  --padding-start: 8px;
+  --padding-end: 8px;
+}
+
+ion-title {
+  font-size: 16px;
+}
+
+ion-button {
+  --padding-top: 4px;
+  --padding-bottom: 4px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  font-size: 13px;
+  height: 32px;
+}
+
+ion-chip {
+  height: 26px;
+  font-size: 12px;
+}
+
+ion-badge {
+  font-size: 11px;
+  padding: 2px 6px;
+}
+
+ion-card {
+  margin: 8px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+ion-card-header {
+  padding: 12px 14px 4px;
+}
+
+ion-card-content {
+  padding: 4px 14px 12px;
+  font-size: 13px;
+}
+
+ion-card-title {
+  font-size: 15px;
+}
+
+ion-card-subtitle {
+  font-size: 12px;
+}
+
+ion-searchbar {
+  --height: 36px;
+  font-size: 13px;
+}
+
+ion-segment-button {
+  --padding-top: 4px;
+  --padding-bottom: 4px;
+  font-size: 13px;
+  min-height: 32px;
+}
+
+ion-input, ion-textarea, ion-select {
+  font-size: 14px;
+}
+
+ion-label {
+  font-size: 14px;
+}
+
+ion-note {
+  font-size: 12px;
+}
+
+ion-avatar {
+  width: 32px;
+  height: 32px;
+}
+
+ion-thumbnail {
+  --size: 40px;
+}
+
+ion-fab-button[size="small"] {
+  width: 40px;
+  height: 40px;
+}
+
+/* ── Accessibility Overrides ── */
+
+/* 1. Large Text Mode */
+.accessible-large-text {
+  font-size: 115%;
+}
+.accessible-large-text ion-card-title,
+.accessible-large-text ion-item h2,
+.accessible-large-text ion-item h3 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+.accessible-large-text ion-card-subtitle, 
+.accessible-large-text p,
+.accessible-large-text ion-label,
+.accessible-large-text ion-button {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+.accessible-large-text ion-item {
+  --min-height: 52px;
+}
+
+/* 2. High Contrast Mode */
+.accessible-high-contrast {
+  /* Strict Yellow & White on Black */
+  --ion-background-color: #000000;
+  --ion-background-color-rgb: 0, 0, 0;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  --ion-color-step-50: #0a0a0a;
+  --ion-color-step-100: #1a1a1a;
+  
+  --ion-color-primary: #ffff00;
+  --ion-color-primary-rgb: 255, 255, 0;
+  --ion-color-primary-contrast: #000000;
+  
+  --ion-color-medium: #ffffff;
+  --ion-color-medium-rgb: 255, 255, 255;
+  --ion-color-medium-contrast: #000000;
+  
+  --ion-toolbar-background: #000000;
+  --ion-tab-bar-background: #000000;
+  --ion-card-background: #0b0b0b;
+  --ion-item-background: #000000;
+  
+  /* Outline everything clearly */
+  --ion-color-step-150: #ffff00;
+}
+
+/* High contrast sharp borders */
+.accessible-high-contrast ion-card {
+  border: 2px solid #ffff00;
+  border-radius: 4px;
+}
+.accessible-high-contrast ion-chip {
+  border: 2px solid #ffff00;
+  background-color: transparent !important;
+}
+.accessible-high-contrast ion-button {
+  --border-width: 2px;
+  --border-style: solid;
+  --border-color: #ffff00;
+}
+.accessible-high-contrast ion-tab-bar {
+  border-top: 2px solid #ffffff;
+}
+.accessible-high-contrast ion-toolbar {
+  border-bottom: 2px solid #ffffff;
+}
+
+/* ── Print Styles ── */
+@media print {
+  /* Hide the entire ionic app structure */
+  body * {
+    visibility: hidden;
+  }
+  
+  /* Show only the print area and its children */
+  .print-only, .print-only * {
+    visibility: visible;
+  }
+  
+  .print-only {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Reset background colors for printer */
+    background: white;
+    color: black;
+  }
+
+  .print-slide-text {
+    page-break-after: always;
+  }
+  
+  /* Clean up braille font printing */
+  .braille-text {
+    font-family: monospace;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    font-size: 28px !important;
+  }
+}
