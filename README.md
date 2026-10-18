@@ -1,6 +1,6 @@
 # INCOMICS
 
-Accessible comic reading platform for deaf, blind, and disabled readers. Vue + Ionic frontend, Express + PostgreSQL backend, with audio narration, accessibility settings, and AI voice navigation.
+Accessible comic reading platform for deaf, blind, and disabled readers. It provides audio narration, accessibility settings, AI voice navigation, and even export to Braille.
 
 ## Quick start
 
